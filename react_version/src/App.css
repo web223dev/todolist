@@ -1,0 +1,14 @@
+.App {
+  text-align: left;
+  max-width: 210px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.todolist li{
+  outline:none;
+  cursor: pointer;
+}
+.todolist li::selection{
+  background: transparent;
+}
